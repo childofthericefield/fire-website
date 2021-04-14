@@ -1,0 +1,34 @@
+---
+title: "Rebecca Weber"
+image: "images/forwebsite.png"
+color1: "#5A59A3"
+color2: "#C66060"
+angle: 130
+links:
+  - label: '`r fontawesome::fa("linkedin", height = "25px")`'
+    url: "https://www.linkedin.com/in/rebecca-weber-772456b0/"
+  - label: '`r fontawesome::fa("github", height = "25px")`'
+    url: "https://github.com/childofthericefield"
+  - label: '`r fontawesome::fa("instagram", height = "25px")`'
+    url: "https://www.instagram.com/childofthericefield/?hl=en"
+  - label: '`r fontawesome::fa("envelope", height = "25px")`'
+    url: "mailto:naekoweber@gmail.com"
+output:
+  postcards::onofre
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
+
+I am a M.S. student at OSU researching reburn severity and vegetation recovery in Southwestern Oregon. During the summer, I work as a firefighter on BLM's Medford Crew 10. Attempting to be less of a scientist and more of a communicator of science to the world at large.
+
