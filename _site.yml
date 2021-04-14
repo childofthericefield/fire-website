@@ -10,7 +10,7 @@ navbar:
     - text: "Science of Fire"
       href: about.html
     - text: "Fire Stories"
-      href: teaching.html
+      href: firestories.html
     - icon: fab fa-github
       href: https://github.com/childofthericefield
 output: distill::distill_article
